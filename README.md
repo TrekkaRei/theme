@@ -1,4 +1,4 @@
 # theme
 full theme for cinnamon
 
----> /.themes/
+theme ---> /.themes/
