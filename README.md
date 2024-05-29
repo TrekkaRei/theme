@@ -1,4 +1,4 @@
 # theme
-full theme for cinnamon
+full theme for cinnamon/gtk
 
 theme ---> /.themes/
