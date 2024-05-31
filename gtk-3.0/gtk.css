@@ -1797,6 +1797,8 @@ menu menuitem:hover,
   transition: none;
   background-color: rgba(20,20,20,1);
   box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.6);
+  font-weight: normal;
+  color: rgba(250,250,250,1);
 }
 menu menuitem:disabled,
 .menu menuitem:disabled,
