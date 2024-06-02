@@ -64,12 +64,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 #Tooltip {
-   /*  border: 1px rgba(100,250,150,0.5); */
+  border: 1px rgba(100,250,150,0.5);
     border-radius: 1px;
     padding: 4px 12px;
     margin-bottom: 5px;
     background: rgba(20,20,20,1);
-    box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.5);
+    /* box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.5); */
     color: rgb(255,255,255);
     font-size: 12pt;
     font-weight: normal;    
@@ -1664,7 +1664,7 @@ border-radius: 1px;
 /* Main menu title */
 .menu-favorites-box {
   margin: auto;
-  padding: 10px;
+  padding: 5px;
 
 }
 .menu-favorites-button {
@@ -1717,6 +1717,7 @@ border-radius: 1px;
     padding-bottom: 7px;
     max-width: 10px;
     font-weight: normal;
+    color: rgba(250,250,250,0.65);
 }
 
 .menu-application-button:highlighted {
@@ -1729,12 +1730,12 @@ border-radius: 1px;
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px;
-    color: white;
+    color: rgba(250,250,250,1);
     font-weight: normal;
     background-color: rgba(20,20,20,1);
-    box-shadow: inset 0px 0px 6px 6px rgba(100,250,150,0.1);
+    box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1);
     border-radius: 1px; 
-    border: 1px rgba(100,250,150,0.5);
+  /*   border: 1px rgba(100,250,150,0.5); */
 }
 
 .menu-application-button-selected:highlighted {
