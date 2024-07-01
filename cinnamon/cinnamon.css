@@ -655,15 +655,15 @@ background-color: none;
 * Desklets (desklet.js)
 * ===================================================================*/
 .desklet {        
-     color: rgba(250,20,40,0.5);  
+     color: rgba(250,40,80,0.5);  
 }
 
 .desklet-with-borders {
-        border: 1px rgba(100,250,150,0.5);
+       /*  border: 1px rgba(100,250,150,0.5); */
 	background-color: rgba(20,20,20,0.8);
 	border-radius: 0px;
-        color: rgba(100,250,150,0.5);  
-        box-shadow: 0px 0px 5px 5px rgba(100,250,150,0.1);
+        color: rgba(0,250,250,0.2);  
+        box-shadow: 0px 0px 5px 5px rgba(20,20,20,0.5);
 }
 
 .desklet-with-borders-and-header {
@@ -786,8 +786,8 @@ border-radius: 0px;
 }
 .calendar-event-button {
     background: rgba(20,20,20,0.7);
-    border: 1px rgba(250,20,40,0.5);
-    box-shadow: inset 0px 0px 4px 4px rgba(250,20,40,0.1);
+    border: 1px rgba(250,40,80,0.5);
+    box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.1);
     border-radius: 0px;
 }
 .calendar-event-button:hover {
@@ -859,11 +859,11 @@ border-radius: 0px;
 	height: 2.4em;
 }
 .calendar-day-base:hover {
-	color: rgba(250,20,40,1);
+	color: rgba(250,40,80,1);
 	font-weight: bold;
 }
 .calendar-day-base:active { /* Todays' date */
-	color: rgba(250,20,40,0.5);
+	color: rgba(250,40,80,0.5);
 }
 .calendar-day-heading {
 	color: white;
@@ -912,7 +912,7 @@ border-radius: 0px;
 }
 
 .calendar-today:selected {
-     color: rgba(250,20,40,1);   	
+     color: rgba(250,40,80,1);   	
      font-weight: bold;
 }
 .calendar-other-month-day {
@@ -925,9 +925,9 @@ border-radius: 0px;
     font-weight: normal;
     color: rgba(250,250,250,0.9);
     background-color: rgba(5,5,5,0.1);
-    border: 0px rgba(250,20,40,0.9);
+    border: 0px rgba(250,40,80,0.9);
     border-radius: 1px;
-    box-shadow: inset 0px 0px 1px 1px rgba(250,20,40,0.5);
+    box-shadow: inset 0px 0px 1px 1px rgba(250,40,80,0.5);
 
 }
 /* ===================================================================
@@ -1774,9 +1774,9 @@ border-radius: 1px;
     padding-bottom: 7px;
     color: white;
     background-color: rgba(20,20,20,1);
-    box-shadow: inset 0px 0px 6px 6px rgba(250,20,40,0.1);
+    box-shadow: inset 0px 0px 1px 1px rgba(250,40,80,1);
     border-radius: 2px; 
-    border: 1px rgba(250,20,40,0.5);
+    /* border: 1px rgba(100,250,150,0.5); */
 }
 
 .menu-category-button-label:ltr {
@@ -1827,7 +1827,7 @@ border-radius: 1px;
 
 #menu-search-entry:focus,
 #menu-search-entry:hover {
-    border: 1px solid rgba(250,20,40,0.5);
+    border: 1px solid rgba(250,40,80,0.5);
     background-color: rgba(20,20,20,0.2);
     border-radius: 0px; 
 }
@@ -1860,7 +1860,7 @@ border-radius: 1px;
     spacing: 4px;
     padding-left: 0px;
     padding-top: 0px;   
-    box-shadow: inset 0px 0px 4px 4px rgba(250,20,40,0.4);
+    box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4);
 }
 .window-list-item-label {
     	font-weight: normal;
@@ -1873,7 +1873,7 @@ border-radius: 1px;
      	color: #969696;
          font-weight: bold;
    	background-color: rgba(20,20,20,1);
-	box-shadow: inset 0px 0px 4px 4px rgba(250,20,40,0.4);
+	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4);
         border-radius: 0px;
 	transition-duration: 0;
 }
@@ -1884,17 +1884,17 @@ border-radius: 1px;
         border-radius: 0px;
 	color: #fff;
         font-weight: bold;
-	box-shadow: inset 0px 0px 4px 4px rgba(250,20,40,0.4);
+	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4);
 	transition-duration: 250;  	
 }
 .window-list-item-box:hover	{ 
- background-color: rgba(250,20,40,0.5);
+ background-color: rgba(250,40,80,0.5);
         border-radius: 0px;
 	color: #fff;
 }
 .window-list-item-demands-attention {
 	background-color: rgba(20,20,20,1);
-	box-shadow: inset 0px 0px 4px 4px rgba(250,20,40,0.5);
+	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.5);
  	color: #fff;
 }
 
@@ -1921,12 +1921,12 @@ border-radius: 1px;
 }
 .grouped-window-list-item-box:hover {
     background: rgba(20,20,20,1);
-    box-shadow: inset 0px 0px 4px 4px rgba(250,20,40,0.15);
-    border: 1px rgba(250,20,40,0.5);
+    box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.15);
+    border: 1px rgba(250,40,80,0.5);
 }
 
 .grouped-window-list-item-box:active {
-    box-shadow: inset 0px 0px 0px 0px rgba(250,20,40,0.15);
+    box-shadow: inset 0px 0px 0px 0px rgba(250,40,80,0.15);
 }
 .grouped-window-list-thumbnail-menu .item-box {
     /* border: 1px rgba(100,250,150,0.5); */
