@@ -17,7 +17,7 @@ stage {
 }
 
 .label-shadow {
-    color: rgba(20,20,20,0.5);
+    color: rgba(10,10,10,0.5);
 }
 
 StScrollBar
@@ -68,7 +68,7 @@ StScrollBar StButton#vhandle:hover
     border-radius: 1px;
     padding: 4px 12px;
     margin-bottom: 5px;
-    background: rgba(20,20,20,1);
+    background: rgba(10,10,10,0.93);
     /* box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.5); */
     color: rgb(255,255,255);
     font-size: 12pt;
@@ -103,7 +103,7 @@ StScrollBar StButton#vhandle:hover
 .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-    border: 1px solid rgba(20,20,20,1);
+    border: 1px solid rgba(10,10,10,0.93);
 }
 
 .notification-button:active, .notification-icon-button:active,
@@ -136,7 +136,7 @@ StScrollBar StButton#vhandle:hover
 	min-height: 80px;
 	border-radius: 0px 0px 0px 0px;
 	box-shadow: none;
-	background-color: rgba(20,20,20,1);
+	background-color: rgba(10,10,10,0.93);
         border: rgba(0,0,0,0.9);
 	border-top: 1px;
         border-left: 1px;
@@ -147,7 +147,7 @@ StScrollBar StButton#vhandle:hover
     /*border: 1px solid rgba(120, 120, 120, 1);*/
     border: 0px rgba(100,250,150,0.5);
     border-radius: 1px;
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.93);
    /*  box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.15); */
     color: #fff;
     font-size: 9.5pt;
@@ -178,11 +178,11 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-submenu-menu-item:open {
-    background-color: rgba(20,20,20,0.8);
+    background-color: rgba(10,10,10,0.8);
 }
 
 .popup-sub-menu {
-   background-color: rgba(20,20,20,1);
+   background-color: rgba(10,10,10,0.93);
 }
 
 .popup-sub-menu .popup-menu-item:ltr {
@@ -207,7 +207,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-combo-menu {
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.93);
     padding: 1em 0em;
     color: rgb(100,100,100);
     font-size: 10pt;
@@ -229,7 +229,7 @@ StScrollBar StButton#vhandle:hover
 
 /* dont FUCKING touch */
 .popup-menu-item:active {
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.5);
     box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.8);
     border-radius: 1px;
     font-weight: normal;
@@ -250,8 +250,8 @@ StScrollBar StButton#vhandle:hover
 
 .popup-separator-menu-item {
     -gradient-height: 1px;
-    -gradient-start: rgba(20,20,20,1);
-    -gradient-end: rgba(20,20,20,1);
+    -gradient-start: rgba(10,10,10,0.93);
+    -gradient-end: rgba(10,10,10,0.93);
     -margin-horizontal: 1.5em;
     height: 1em;
 }
@@ -267,9 +267,9 @@ background-color: none;
     min-width: 15em;
     -slider-height: 0.1em;
     -slider-background-color: #444;
-    -slider-border-color: rgba(20,20,20,.02);
+    -slider-border-color: rgba(10,10,10,.02);
     -slider-active-background-color: #42bee1;
-    -slider-active-border-color: rgba(20,20,20,0.2);
+    -slider-active-border-color: rgba(10,10,10,0.2);
     -slider-border-width: 1px;
     -slider-handle-radius: 0.5em;
 }
@@ -314,7 +314,7 @@ background-color: none;
  * ===================================================================*/
 #panel {
     color: #ffffff;
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.93);
     /* border: 1px rgba(100,250,150,0.5); */
     border-bottom: 0px;
     border-radius: 0px;
@@ -445,8 +445,8 @@ background-color: none;
 .panel-status-button:active {
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
 }
 
 .system-status-icon {
@@ -479,7 +479,7 @@ background-color: none;
 }
 
 .panel-button:hover {
-	background-color: rgba(20,20,20,1);
+	background-color: rgba(10,10,10,0.93);
         border-radius: 0px;
 	color:  #56b74d;
 	box-shadow: 0px -2px 0px 0px rgba(100,250,150,0.5);
@@ -491,8 +491,8 @@ background-color: none;
 .panel-button:focus {
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
 }
 
 .panel-button:active > .system-status-icon,
@@ -599,7 +599,7 @@ background-color: none;
 }
 
 .window-close:rtl {
-    -st-background-image-shadow: 2px 2px 6px rgba(20,20,20,1);
+    -st-background-image-shadow: 2px 2px 6px rgba(10,10,10,0.93);
 }
 
 .window-close-area {
@@ -638,7 +638,7 @@ background-color: none;
 }
 
 .workspace-overview-background-shade {
-  background-color: rgba(20,20,20,0.4);
+  background-color: rgba(10,10,10,0.4);
 }
 
 .expo-workspace-thumbnail-frame {
@@ -660,10 +660,10 @@ background-color: none;
 
 .desklet-with-borders {
        /*  border: 1px rgba(100,250,150,0.5); */
-	background-color: rgba(20,20,20,0.7);
+	background-color: rgba(10,10,10,0.7);
 	border-radius: 0px;
         color: rgba(0,250,250,0.2);  
-        box-shadow: 0px 0px 5px 5px rgba(20,20,20,0.5);
+        box-shadow: 0px 0px 5px 5px rgba(10,10,10,0.5);
 }
 
 .desklet-with-borders-and-header {
@@ -672,7 +672,7 @@ border: 0px solid #56b74d;
       	border-left: 0px;
       	border-right: 0px;
         border-top: 0px;
-	background-color: rgba(20,20,20,0,0);
+	background-color: rgba(10,10,10,0,0);
 color: #56b74d;   
     border-radius-bottomleft: 0px;
     border-radius-bottomright: 0px;
@@ -688,7 +688,7 @@ border: 1px solid #000;
       	border-left: 0px;
       	border-right: 0px;
         border-top: 0px;
-	background-color: rgba(20,20,20,0,0);
+	background-color: rgba(10,10,10,0,0);
 	border-radius: 0px;
 color: #56b74d;  
     padding: 6px;
@@ -709,7 +709,7 @@ border: 1px solid #56b74d;
       	border-left: 0px;
       	border-right: 0px;
         border-top: 0px;
-	background-color: rgba(20,20,20,0,0);
+	background-color: rgba(10,10,10,0,0);
 	border-radius: 0px;
  
 }
@@ -754,7 +754,7 @@ border-radius: 0px;
 	spacing-rows: 0px;
 	spacing-columns: 0px;
         margin-right: 10px;
-        background: rgba(20,20,20,1);
+        background: rgba(10,10,10,0.93);
 }
 .calendar-events-main-box {
     height: 300px;
@@ -765,8 +765,8 @@ border-radius: 0px;
     box-shadow: inset 0px 0px 6px 6px rgba(100,250,150,0.1);
     border-radius: 4px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
     color: white;
 }
 .calendar-events-no-events-box {
@@ -779,21 +779,21 @@ border-radius: 0px;
 }
 .calendar-events-no-events-button:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
     border: 1px rgba(100,250,150,0.5);
     box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.13);
 }
 .calendar-event-button {
-    background: rgba(20,20,20,0.7);
+    background: rgba(10,10,10,0.7);
     border: 1px rgba(250,40,80,0.5);
     box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.1);
     border-radius: 0px;
 }
 .calendar-event-button:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,0.7);
-    background-gradient-end: rgba(20,20,20,0.7);
+    background-gradient-start: rgba(10,10,10,0.7);
+    background-gradient-end: rgba(10,10,10,0.7);
     border-radius: 0px;
     border: 1px rgba(100,250,150,0.5);
     box-shadow: inset 0px 0px 4px 4px rgba(100,250,150,0.1);
@@ -902,8 +902,8 @@ border-radius: 0px;
 }
 .calendar-today {
      background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,0.05);
-    background-gradient-end: rgba(20,20,20,0.05);
+    background-gradient-start: rgba(10,10,10,0.05);
+    background-gradient-end: rgba(10,10,10,0.05);
     border: 0px rgba(100,250,150,1);
     box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.5);
     border-radius: 1px;
@@ -938,7 +938,7 @@ border-radius: 0px;
     font-size: 8.5pt;
     border-radius: 1px;
     border: 1px solid rgba(100,250,150,0.8);
-   background-color: rgba(20,20,20,1);
+   background-color: rgba(10,10,10,0.93);
    box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1);
     padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
@@ -1017,7 +1017,7 @@ border-radius: 0px;
     color: #a8a8a8;
     selected-color: black;
     border: 1px rgba(100,250,150,0.5);
-   background-color: rgba(20,20,20,1);
+   background-color: rgba(10,10,10,0.93);
     transition-duration: 300;
     box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.5);
 
@@ -1028,7 +1028,7 @@ border-radius: 0px;
 #notification StEntry:focus {
     border: 1px solid #000;
     color: #333333;
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.93);
 
     caret-color: #545454;
     selection-background-color: #808080;
@@ -1045,8 +1045,8 @@ border-radius: 0px;
 
 .switcher-list {
 	background-gradient-direction: vertical;
-        background-gradient-start: rgba(20,20,20,1);
-        background-gradient-end: rgba(20,20,20,1);
+        background-gradient-start: rgba(10,10,10,0.93);
+        background-gradient-end: rgba(10,10,10,0.93);
         border: rgba(100,250,150,0.5);
 /*         box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.2); */
 	border-top: 0px;
@@ -1095,8 +1095,8 @@ border-radius: 0px;
 
 .switcher-list .item-box:selected {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
     border: 1px solid rgba(100,250,150,0.5);
     box-shadow: inset 0px 0px 6px 6px rgba(100,250,150,0.1); 
 }
@@ -1156,8 +1156,8 @@ border-radius: 0px;
     border-radius: 2px;
     border: 2px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
     box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1);
     color: #babdb6;
 
@@ -1677,7 +1677,7 @@ border-radius: 1px;
 }
 
 .menu-favorites-button:hover {
- background-color: rgba(20,20,20,1);
+ background-color: rgba(10,10,10,0.93);
  border: 0px rgba(100,250,150,0.5); 
  box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.6);
  border-radius: 1px;
@@ -1732,7 +1732,7 @@ border-radius: 1px;
     padding-bottom: 7px;
     color: rgba(250,250,250,1);
     font-weight: normal;
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.5);
     box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1);
     border-radius: 1px; 
   /*   border: 1px rgba(100,250,150,0.5); */
@@ -1773,7 +1773,7 @@ border-radius: 1px;
     padding-right: 7px;
     padding-bottom: 7px;
     color: white;
-    background-color: rgba(20,20,20,1);
+    background-color: rgba(10,10,10,0.5);
     box-shadow: inset 0px 0px 1px 1px rgba(250,40,80,1);
     border-radius: 2px; 
     /* border: 1px rgba(100,250,150,0.5); */
@@ -1828,7 +1828,7 @@ border-radius: 1px;
 #menu-search-entry:focus,
 #menu-search-entry:hover {
     border: 1px solid rgba(250,40,80,0.5);
-    background-color: rgba(20,20,20,0.2);
+    background-color: rgba(10,10,10,0.2);
     border-radius: 0px; 
 }
 
@@ -1838,7 +1838,7 @@ border-radius: 1px;
 
 #menu-search-entry:focus {
     color: rgba(250,250,250,0.5);
-    background-color: rgba(27,27,27,1);
+    background-color: rgba(10,10,10,0.5);
     font-weight: normal;
     transition-duration: 0;
 }
@@ -1872,7 +1872,7 @@ border-radius: 1px;
     	padding-right: 5px; 
      	color: #969696;
          font-weight: bold;
-   	background-color: rgba(20,20,20,1);
+   	background-color: rgba(10,10,10,0.93);
 	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4);
         border-radius: 0px;
 	transition-duration: 0;
@@ -1893,13 +1893,13 @@ border-radius: 1px;
 	color: #fff;
 }
 .window-list-item-demands-attention {
-	background-color: rgba(20,20,20,1);
+	background-color: rgba(10,10,10,0.93);
 	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.5);
  	color: #fff;
 }
 
 .window-list-preview {
-    background: rgba(20,20,20,1);
+    background: rgba(10,10,10,0.93);
     border: 0px rgba(100,250,150,0.5);
     border-radius: 8px;
     color: white;
@@ -1914,13 +1914,13 @@ border-radius: 1px;
 .grouped-window-list-item-box:active:focus:hover,
 .grouped-window-list-item-box:focus:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(20,20,20,1);
-    background-gradient-end: rgba(20,20,20,1);
+    background-gradient-start: rgba(10,10,10,0.93);
+    background-gradient-end: rgba(10,10,10,0.93);
     border: 1px rgba(100,250,150,0.5);
     box-shadow: inset 0px 0px 4px 4px rgba(100,250,150,0.15);
 }
 .grouped-window-list-item-box:hover {
-    background: rgba(20,20,20,1);
+    background: rgba(10,10,10,0.93);
     box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.15);
     border: 1px rgba(250,40,80,0.5);
 }
@@ -1930,7 +1930,7 @@ border-radius: 1px;
 }
 .grouped-window-list-thumbnail-menu .item-box {
     /* border: 1px rgba(100,250,150,0.5); */
-    background: rgba(20,20,20,1);
+    background: rgba(10,10,10,0.93);
     box-shadow: inset 0px 0px 4px 4px rgba(5,5,5,0.2);
     color: white;
     padding: 6px;
@@ -1944,7 +1944,7 @@ border-radius: 1px;
     box-shadow: inset 0px 0px 4px 4px rgba(255,255,255,0.15);
 }
 .grouped-window-list-thumbnail-menu .item-box:selected {
-    background: rgba(20,20,20,1);
+    background: rgba(10,10,10,0.93);
     border: 1px rgba(100,250,150,0.5);
     box-shadow: inset 0px 0px 4px 4px rgba(100,250,150,0.15);
 }
@@ -2121,7 +2121,7 @@ border-radius: 1px;
     padding-right: 2px;
     transition-duration: 200; }
     .panel-launchers .launcher:hover {
-        background-color: rgba(20,20,20,0.1);
+        background-color: rgba(10,10,10,0.1);
     border: 0px solid rgba(86,183,77,1);
     border-bottom-width: 2px; }
   .panel-launchers.vertical {
@@ -2168,7 +2168,7 @@ border-radius: 1px;
 	transition-duration: 100;
 }
 .applet-box:active {
-   	background-color: rgba(20,20,20,1);
+   	background-color: rgba(10,10,10,0.93);
 	color:  #fff;
 	transition-duration: 100;
 }
@@ -2211,7 +2211,7 @@ background: #282828;
 	border-bottom: 0px;
 	border-left: 0px;
 	border-right: 0px;
-box-shadow: 0px 0px 6px 3px rgba(20,20,20,0.76);
+box-shadow: 0px 0px 6px 3px rgba(10,10,10,0.76);
 padding: 0.5em 1em;
 }
 
@@ -2222,7 +2222,7 @@ padding: 0.5em 1em;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
-	background-color: rgba(20,20,20,.0);
+	background-color: rgba(10,10,10,.0);
 	selected-color: white;
 	caret-color: #FFF;
 	caret-size: 1px;
@@ -2231,7 +2231,7 @@ padding: 0.5em 1em;
 }
 
 .expo-workspaces-name-entry#selected {
-	background-color: rgba(20,20,20,.0);
+	background-color: rgba(10,10,10,.0);
 	color: #56b74d;
 	border: 1px solid #56b74d;
 	border-top: 0px;
@@ -2379,7 +2379,7 @@ padding: 0.5em 1em;
 The colour parameters are red, green, blue, and transparency or a name */
 
 .numa-not-connected {
-	background-color: rgba(20,20,20,0.0);
+	background-color: rgba(10,10,10,0.0);
  	border-radius: 0px;
 }
 
