@@ -152,6 +152,7 @@ StScrollBar StButton#vhandle:hover
     color: #fff;
     font-size: 9.5pt;
     min-width: 100px;
+    margin-top: 0px;
     margin-bottom: 5px;
     margin-left: 5px;
 }
@@ -253,7 +254,7 @@ StScrollBar StButton#vhandle:hover
     -gradient-start: rgba(10,10,10,0.93);
     -gradient-end: rgba(10,10,10,0.93);
     -margin-horizontal: 1.5em;
-    height: 1em;
+    height: 0em;
 }
 
 .popup-alternating-menu-item:alternate {
@@ -2062,10 +2063,10 @@ border-radius: 1px;
 
 .workspace-button:outlined {
   	padding: 2px;
-   	background-color: #000;
+   	background-color: rgba(20,20,20,0.5);
         border-radius: 0px;
 	color: #56b74d;
-	box-shadow: inset 0px -2px 0px 0px rgba(86,183,77,1);
+	box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1);
 }
 
 .workspace-button.vertical {
@@ -2105,7 +2106,7 @@ border-radius: 1px;
 
 .workspace-graph .workspace:active .windows {
     -active-window-background: rgba(30, 30, 30, 1.0);
-    -active-window-border: rgba(0, 0, 0, 0.9);
+    -active-window-border: rgba(20, 20, 20, 0.9);
     -inactive-window-background: rgba(20, 20, 20, 1.0);
     -inactive-window-border: rgba(0, 0, 0, 0.7);
 }
