@@ -40,19 +40,19 @@ StScrollView StScrollBar
 
 
 StScrollBar StBin#trough {
-    background-color: rgba(30,30,30,0.5);
+    background-color: rgba(10,10,10,0);
     border-radius: 2px;
 }
 
 StScrollBar StButton#vhandle
 {
-    background-color: rgba(100,250,150,0.15);
+    background-color: rgba(10,10,10,0);
     border-radius: 2px;
 }
 
 StScrollBar StButton#hhandle
 {
-    background-color: rgba(100,250,150,0.5);
+    background-color: rgba(10,10,10,0);
     border-radius: 2px;
 }
 
@@ -60,15 +60,15 @@ StScrollBar StButton#hhandle
 StScrollBar StButton#hhandle:hover,
 StScrollBar StButton#vhandle:hover
 {
-    background-color: rgba(100,250,150,0.8);
+    background-color: rgba(10,10,10,0);
 }
 
 #Tooltip {
   border: 1px rgba(100,250,150,0.5);
     border-radius: 1px;
     padding: 4px 12px;
-    margin-bottom: 5px;
-    background: rgba(10,10,10,0.93);
+    margin-left: 0px;
+    background: rgba(10,21,22,0.98);
     /* box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.5); */
     color: rgb(255,255,255);
     font-size: 12pt;
@@ -103,7 +103,7 @@ StScrollBar StButton#vhandle:hover
 .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-    border: 1px solid rgba(10,10,10,0.93);
+    border: 1px solid rgba(10,21,22,0.93);
 }
 
 .notification-button:active, .notification-icon-button:active,
@@ -126,35 +126,30 @@ StScrollBar StButton#vhandle:hover
 }
 .popup-menu {
 
-	color: #fff;
+	color: #ccc;
 	font-size: 9.5pt;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-width: 250px;
-	min-height: 80px;
+	min-width: 50px;
+	min-height: 50px;
 	border-radius: 0px 0px 0px 0px;
 	box-shadow: none;
-	background-color: rgba(10,10,10,0.93);
-        border: rgba(0,0,0,0.9);
-	border-top: 1px;
-        border-left: 1px;
-        border-right: 1px;
-	    border-bottom: 1px;
+	background-color: rgba(10,21,22,0.93);
+        border: 0px rgba(0,0,0,0.9);
 }
 .menu {
     /*border: 1px solid rgba(120, 120, 120, 1);*/
+    /*  box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.15); */
     border: 0px rgba(100,250,150,0.5);
     border-radius: 1px;
-    background-color: rgba(10,10,10,0.93);
-   /*  box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.15); */
-    color: #fff;
-    font-size: 9.5pt;
-    min-width: 100px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+    background-color: rgba(10,21,22,0.93);
+    color: #ccc;
+    font-size: 8.5pt;
+    margin-left: 2px;
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 500px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 2px;
 }
 
 .menu.top {
@@ -182,8 +177,12 @@ StScrollBar StButton#vhandle:hover
     background-color: rgba(10,10,10,0.8);
 }
 
+.popup-subtitle-menu-item {
+  font-weight: bold; }
+
 .popup-sub-menu {
-   background-color: rgba(10,10,10,0.93);
+   background-color: rgba(10,21,22,0.93);
+   color: rgba(250,50,100,0.8); 
 }
 
 .popup-sub-menu .popup-menu-item:ltr {
@@ -208,7 +207,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-combo-menu {
-    background-color: rgba(10,10,10,0.93);
+    background-color: rgba(10,21,22,0.93);
     padding: 1em 0em;
     color: rgb(100,100,100);
     font-size: 10pt;
@@ -230,7 +229,7 @@ StScrollBar StButton#vhandle:hover
 
 /* dont FUCKING touch */
 .popup-menu-item:active {
-    background-color: rgba(10,10,10,0.5);
+    background-color: rgba(10,21,22,0.5);
     box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.8);
     border-radius: 1px;
     font-weight: normal;
@@ -251,8 +250,8 @@ StScrollBar StButton#vhandle:hover
 
 .popup-separator-menu-item {
     -gradient-height: 1px;
-    -gradient-start: rgba(10,10,10,0.93);
-    -gradient-end: rgba(10,10,10,0.93);
+    -gradient-start: rgba(10,21,22,0.93);
+    -gradient-end: rgba(10,21,22,0.93);
     -margin-horizontal: 1.5em;
     height: 0em;
 }
@@ -314,8 +313,8 @@ background-color: none;
  * Panel (panel.js)
  * ===================================================================*/
 #panel {
-    color: #ffffff;
-    background-color: rgba(10,10,10,0.93);
+    color: #cccccc;
+    background-color: rgba(10,21,22,0.93);
     /* border: 1px rgba(100,250,150,0.5); */
     border-bottom: 0px;
     border-radius: 0px;
@@ -446,8 +445,8 @@ background-color: none;
 .panel-status-button:active {
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
+    background-gradient-start: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.93);
 }
 
 .system-status-icon {
@@ -480,10 +479,10 @@ background-color: none;
 }
 
 .panel-button:hover {
-	background-color: rgba(10,10,10,0.93);
+	background-color: rgba(10,21,22,0.93);
         border-radius: 0px;
 	color:  #56b74d;
-	box-shadow: 0px -2px 0px 0px rgba(100,250,150,0.5);
+	box-shadow: 0px -1px 0px 0px rgba(100,250,150,0.5);
 	transition-duration: 100;
 }
 
@@ -492,8 +491,8 @@ background-color: none;
 .panel-button:focus {
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
+    background-gradient-start: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.93);
 }
 
 .panel-button:active > .system-status-icon,
@@ -600,7 +599,7 @@ background-color: none;
 }
 
 .window-close:rtl {
-    -st-background-image-shadow: 2px 2px 6px rgba(10,10,10,0.93);
+    -st-background-image-shadow: 2px 2px 6px rgba(10,21,22,0.93);
 }
 
 .window-close-area {
@@ -755,7 +754,7 @@ border-radius: 0px;
 	spacing-rows: 0px;
 	spacing-columns: 0px;
         margin-right: 10px;
-        background: rgba(10,10,10,0.93);
+        background: rgba(10,21,22,0.93);
 }
 .calendar-events-main-box {
     height: 300px;
@@ -766,8 +765,8 @@ border-radius: 0px;
     box-shadow: inset 0px 0px 6px 6px rgba(100,250,150,0.1);
     border-radius: 4px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
+    background-gradient-start: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.93);
     color: white;
 }
 .calendar-events-no-events-box {
@@ -780,8 +779,8 @@ border-radius: 0px;
 }
 .calendar-events-no-events-button:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
+    background-gradient-start: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.93);
     border: 1px rgba(100,250,150,0.5);
     box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.13);
 }
@@ -848,7 +847,7 @@ border-radius: 0px;
     height: 4px;
 }
 .datemenu-date-label {
-        color: #fff;
+        color: #ccc;
 	padding: .4em 1.75em;
 	font-size: 10.5pt;
 	font-weight: bold;
@@ -939,7 +938,7 @@ border-radius: 0px;
     font-size: 8.5pt;
     border-radius: 1px;
     border: 1px solid rgba(100,250,150,0.8);
-   background-color: rgba(10,10,10,0.93);
+   background-color: rgba(10,21,22,0.93);
    box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1);
     padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
@@ -1018,7 +1017,7 @@ border-radius: 0px;
     color: #a8a8a8;
     selected-color: black;
     border: 1px rgba(100,250,150,0.5);
-   background-color: rgba(10,10,10,0.93);
+   background-color: rgba(10,21,22,0.93);
     transition-duration: 300;
     box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.5);
 
@@ -1029,7 +1028,7 @@ border-radius: 0px;
 #notification StEntry:focus {
     border: 1px solid #000;
     color: #333333;
-    background-color: rgba(10,10,10,0.93);
+    background-color: rgba(10,21,22,0.93);
 
     caret-color: #545454;
     selection-background-color: #808080;
@@ -1046,8 +1045,8 @@ border-radius: 0px;
 
 .switcher-list {
 	background-gradient-direction: vertical;
-        background-gradient-start: rgba(10,10,10,0.93);
-        background-gradient-end: rgba(10,10,10,0.93);
+        background-gradient-start: rgba(10,21,22,0.93);
+        background-gradient-end: rgba(10,21,22,0.93);
         border: rgba(100,250,150,0.5);
 /*         box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.2); */
 	border-top: 0px;
@@ -1096,8 +1095,8 @@ border-radius: 0px;
 
 .switcher-list .item-box:selected {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
+    background-gradient-start: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.93);
     border: 1px solid rgba(100,250,150,0.5);
     box-shadow: inset 0px 0px 6px 6px rgba(100,250,150,0.1); 
 }
@@ -1157,8 +1156,8 @@ border-radius: 0px;
     border-radius: 2px;
     border: 2px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
+    background-gradient-start: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.93);
     box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1);
     color: #babdb6;
 
@@ -1215,7 +1214,7 @@ border-radius: 0px;
     border-radius: 20px;
     background-color: rgba(55,55,55,0.9);
     border: 2px solid rgba(90,90,90,1.0);
-    color: #fff;
+    color: #ccc;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -1534,7 +1533,7 @@ border-radius: 0px;
 
 .polkit-dialog-error-label {
     font-size: 10pt;
-    color: #ffff00;
+    color: #cccf00;
     padding-bottom: 8px;
 }
 
@@ -1625,7 +1624,7 @@ border: 1px #76d2ec;
       border-left: 0px;
       border-right: 0px; 
 border-radius: 1px;
-	color: #fff;
+	color: #ccc;
  
 }
 
@@ -1638,7 +1637,7 @@ border: 1px #76d2ec;
       border-left: 0px;
       border-right: 0px; 
 border-radius: 1px;
-	color: #fff;
+	color: #ccc;
  
 }
 
@@ -1678,7 +1677,7 @@ border-radius: 1px;
 }
 
 .menu-favorites-button:hover {
- background-color: rgba(10,10,10,0.93);
+ background-color: rgba(10,21,22,0.93);
  border: 0px rgba(100,250,150,0.5); 
  box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.6);
  border-radius: 1px;
@@ -1712,10 +1711,10 @@ border-radius: 1px;
 }
 
 .menu-application-button {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
     max-width: 10px;
     font-weight: normal;
     color: rgba(250,250,250,0.65);
@@ -1727,13 +1726,13 @@ border-radius: 1px;
 }
 
 .menu-application-button-selected {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
     color: rgba(250,250,250,1);
     font-weight: normal;
-    background-color: rgba(10,10,10,0.5);
+    background-color: rgba(10,21,22,0.93);
     box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1);
     border-radius: 1px; 
   /*   border: 1px rgba(100,250,150,0.5); */
@@ -1781,7 +1780,8 @@ border-radius: 1px;
 }
 
 .menu-category-button-label:ltr {
-    padding-left: 5px
+    padding-left: 5px 
+    
 }
 
 .menu-category-button-label:rtl {
@@ -1795,9 +1795,9 @@ border-radius: 1px;
 /* Name and description of the currently hovered item in the menu
  * This appears on the bottom right hand corner of the menu*/
 .menu-selected-app-box {
-    padding-right: 30px;
-    padding-left: 28px;
-    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 .menu-selected-app-title {
@@ -1809,26 +1809,26 @@ border-radius: 1px;
 }
 
 .menu-search-box {
-   padding-left: 30px;
+   padding-left: 4px;
 }
 
 #menu-search-entry {
-    padding: 4px 12px;
+    padding: 4px 4px;
     color: rgb(255, 255, 255);
     border: 1px solid rgba(21,183,77,0.6);
-    background-color: rgba(0,0,20,0);
+    background-color: rgba(10,21,22,0.93);
     border-radius: 0px; 
     selected-color: black;
     caret-color: rgb(128, 128, 128);
     caret-size: 1px;
-    width: 250px;
+    width: 150px;
     transition-duration: 300;
     font-size: 11.5pt;
 }
 
 #menu-search-entry:focus,
 #menu-search-entry:hover {
-    border: 1px solid rgba(250,40,80,0.5);
+    border: 1px solid rgba(150,150,150,1);
     background-color: rgba(10,10,10,0.2);
     border-radius: 0px; 
 }
@@ -1839,14 +1839,14 @@ border-radius: 1px;
 
 #menu-search-entry:focus {
     color: rgba(250,250,250,0.5);
-    background-color: rgba(10,10,10,0.5);
+    background-color: rgba(10,21,22,0.93);
     font-weight: normal;
     transition-duration: 0;
 }
 
 .menu-search-entry-icon {
     icon-size: 1em;
-    color: #fff;
+    color: rgba(10,10,10,0);
 }
 
 /* Context menu (at the moment only for favorites) */
@@ -1873,8 +1873,8 @@ border-radius: 1px;
     	padding-right: 5px; 
      	color: #969696;
          font-weight: bold;
-   	background-color: rgba(10,10,10,0.93);
-	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4);
+   	background-color: rgba(10,21,22,0.93);
+	box-shadow: inset 0px 0px 2px 2px rgba(250,40,80,0.4);
         border-radius: 0px;
 	transition-duration: 0;
 }
@@ -1883,24 +1883,24 @@ border-radius: 1px;
 .window-list-item-box:focus	{ 
     	background-color: rgba(255,0,125,0.01);
         border-radius: 0px;
-	color: #fff;
+	color: #ccc;
         font-weight: bold;
-	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4);
+	/* box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.4); */
 	transition-duration: 250;  	
 }
 .window-list-item-box:hover	{ 
- background-color: rgba(250,40,80,0.5);
+ 	background-color: rgba(250,40,80,0.5);
         border-radius: 0px;
-	color: #fff;
+	color: #ccc;
 }
 .window-list-item-demands-attention {
-	background-color: rgba(10,10,10,0.93);
+	background-color: rgba(10,21,22,0.93);
 	box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.5);
- 	color: #fff;
+ 	color: #ccc;
 }
 
 .window-list-preview {
-    background: rgba(10,10,10,0.93);
+    background: rgba(10,21,22,0.93);
     border: 0px rgba(100,250,150,0.5);
     border-radius: 8px;
     color: white;
@@ -1915,15 +1915,16 @@ border-radius: 1px;
 .grouped-window-list-item-box:active:focus:hover,
 .grouped-window-list-item-box:focus:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,10,10,0.93);
-    background-gradient-end: rgba(10,10,10,0.93);
-    border: 1px rgba(100,250,150,0.5);
-    box-shadow: inset 0px 0px 4px 4px rgba(100,250,150,0.15);
+    background-gradient-start: rgba(200,200,200,1);
+    background-gradient-end: rgba(200,200,200,1);
+    color: black;
+    border: 0px rgba(100,250,150,0.5);
+    /* box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,0.15); */
 }
 .grouped-window-list-item-box:hover {
-    background: rgba(10,10,10,0.93);
-    box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.15);
-    border: 1px rgba(250,40,80,0.5);
+    background: rgba(200,200,200,1);
+/*    box-shadow: inset 0px 0px 4px 4px rgba(250,40,80,0.15); */
+    /* border: 1px rgba(250,40,80,0.5); */
 }
 
 .grouped-window-list-item-box:active {
@@ -1931,7 +1932,7 @@ border-radius: 1px;
 }
 .grouped-window-list-thumbnail-menu .item-box {
     /* border: 1px rgba(100,250,150,0.5); */
-    background: rgba(10,10,10,0.93);
+    background: rgba(10,21,22,0.93);
     box-shadow: inset 0px 0px 4px 4px rgba(5,5,5,0.2);
     color: white;
     padding: 6px;
@@ -1945,7 +1946,7 @@ border-radius: 1px;
     box-shadow: inset 0px 0px 4px 4px rgba(255,255,255,0.15);
 }
 .grouped-window-list-thumbnail-menu .item-box:selected {
-    background: rgba(10,10,10,0.93);
+    background: rgba(10,21,22,0.93);
     border: 1px rgba(100,250,150,0.5);
     box-shadow: inset 0px 0px 4px 4px rgba(100,250,150,0.15);
 }
@@ -1993,7 +1994,7 @@ border-radius: 1px;
 
 .sound-player StButton:hover,
 .sound-player StButton:active {
-    color: #fff;
+    color: #ccc;
 }
 
 .sound-player StButton:small:hover {
@@ -2011,7 +2012,7 @@ border-radius: 1px;
     -slider-height: 0.5em;
     -slider-background-color: #7a7a7a;
     -slider-border-color: rgba(0, 0, 0, 0);
-    -slider-active-background-color: #ffffff;
+    -slider-active-background-color: #cccccc;
     -slider-active-border-color: rgba(0, 0, 0, 0);
     -slider-border-width: 0px;
     -slider-handle-radius: 0px;
@@ -2057,7 +2058,7 @@ border-radius: 1px;
   	padding: 2px;
 	border-radius: 0px;
     	background-color: rgba(255,255,255,0.0);
-    	color: #fff;
+    	color: #ccc;
     	transition-duration: 250;
 }
 
@@ -2164,13 +2165,13 @@ border-radius: 1px;
 }
 .applet-box:hover {
    	background-color: rgba(25,25,25,0.1);
-	color:  #fff;
+	color:  #ccc;
 	box-shadow: inset 0px 0px 2px 2px rgba(100,250,150,0.5);
 	transition-duration: 100;
 }
 .applet-box:active {
-   	background-color: rgba(10,10,10,0.93);
-	color:  #fff;
+   	background-color: rgba(10,21,22,0.93);
+	color:  #ccc;
 	transition-duration: 100;
 }
 .applet-box.vertical {
@@ -2203,23 +2204,23 @@ border-radius: 1px;
  * ===================================================================*/
 
 .workspace-osd {
-	color: #ffffff;
+	color: #cccccc;
 	font-size: 25pt;	
 	text-align: center;
-font-weight: bold;
-background: #282828;
+	font-weight: bold;
+	background: #282828;
 	border: 1px solid #444;
 	border-bottom: 0px;
 	border-left: 0px;
 	border-right: 0px;
-box-shadow: 0px 0px 6px 3px rgba(10,10,10,0.76);
-padding: 0.5em 1em;
+	box-shadow: 0px 0px 6px 3px rgba(10,10,10,0.76);
+	padding: 0.5em 1em;
 }
 
 .expo-workspaces-name-entry {
  	padding: 5px 10px;
 	color: #999;
-	border: 1px solid #fff;
+	border: 1px solid #ccc;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
@@ -2244,7 +2245,7 @@ padding: 0.5em 1em;
 }
 
 .expo-workspaces-name-entry:focus {
-	color: #fff;
+	color: #ccc;
 	font-weight: bold;
 	transition-duration: 300;
 	text-align: center;	
@@ -2363,7 +2364,7 @@ padding: 0.5em 1em;
 .numa-left {
 	text-align: center;
 	min-width: 75px;
-        color: #fff;
+        color: #ccc;
 	font-weight: bold;
 	/*font-size: 95%;*/
 }
@@ -2371,7 +2372,7 @@ padding: 0.5em 1em;
 .numa-right {
 	text-align: center;
 	min-width: 1px;
-        color: #fff;
+        color: #ccc;
 	font-weight: bold;
 	/*font-size: 95%;*/
 }
