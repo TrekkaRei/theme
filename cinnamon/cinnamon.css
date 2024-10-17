@@ -64,7 +64,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 #Tooltip {
-  border: 1px rgba(100,250,150,0.5);
+  border: 1px rgba(150,150,150,1);
     border-radius: 1px;
     padding: 4px 12px;
     margin-left: 0px;
@@ -145,7 +145,7 @@ StScrollBar StButton#vhandle:hover
     font-size: 8.5pt;
     margin-left: 2px;
     min-width: 50px;
-    max-width: 50px;
+    max-width: 150px;
     max-height: 500px;
     padding-bottom: 2px;
     margin-bottom: 0px;
@@ -212,7 +212,7 @@ StScrollBar StButton#vhandle:hover
     color: rgb(100,100,100);
     font-size: 10pt;
     border: 1px solid #5f5f5f;
-    border-radius: 9px;
+    border-radius: 1px;
 }
 
 /* The remaining popup-menu sizing is all done in ems, so that if you
@@ -315,18 +315,21 @@ background-color: none;
 #panel {
     color: #cccccc;
     background-color: rgba(10,21,22,0.93);
-    /* border: 1px rgba(100,250,150,0.5); */
-    border-bottom: 0px;
-    border-radius: 0px;
-    /* box-shadow: 0px 0px 5px 5px rgba(100,250,150,0.12); */
-    outline: 0px rgba(0,0,0,1);
+    border: 0px rgba(10,21,22,0.1);
+    border-radius: 1px;
+    /* box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.13); */
+    outline: 0px rgba(100,250,150,0.5);
     font-size: 9pt;
     font-weight: normal;
-    height: 45px;
+    height: 27px;
+    padding: 0px;
+    /* margin-top: 5px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
 }
 
 #panel:highlight {
-    background-color: #aa5555;
+    background-color: rgba(250,40,80,0.5);
 }
 .panel-dummy {
     border: 1px solid rgba(120,120,120,0.9);
@@ -359,38 +362,38 @@ background-color: none;
 
 #panelLeft:dnd {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(255,0,0,0.05);
-    background-gradient-end: rgba(255,0,0,0.2);
+    background-gradient-start: rgba(250,40,80,0.1);
+    background-gradient-end: rgba(250,40,80,0.5);
 }
 
 #panelLeft.vertical:dnd {
     background-gradient-direction: horizontal;
-    background-gradient-start: rgba(255,0,0,0.05);
-    background-gradient-end: rgba(255,0,0,0.2);
+    background-gradient-start: rgba(250,40,80,0.1);
+    background-gradient-end: rgba(250,40,80,0.5);
 }
 
 #panelCenter:dnd {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0,255,0,0.05);
-    background-gradient-end: rgba(0,255,0,0.2);
+    background-gradient-start: rgba(100,250,150,0.1);
+    background-gradient-end: rgba(100,250,150,0.8);
 }
 
 #panelCenter.vertical:dnd {
     background-gradient-direction: horizontal;
-    background-gradient-start: rgba(0,255,0,0.05);
-    background-gradient-end: rgba(0,255,0,0.2);
+    background-gradient-start: rgba(100,250,150,0.1);
+    background-gradient-end: rgba(100,250,150,0.8);
 }
 
 #panelRight:dnd {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(0,0,255,0.05);
-    background-gradient-end: rgba(0,0,255,0.2);
+    background-gradient-start: rgba(100,150,250,0.1);
+    background-gradient-end: rgba(100,150,250,0.8);
 }
 
 #panelRight.vertical:dnd {
     background-gradient-direction: horizontal;
-    background-gradient-start: rgba(0,0,255,0.05);
-    background-gradient-end: rgba(0,0,255,0.2);
+    background-gradient-start: rgba(100,150,250,0.1);
+    background-gradient-end: rgba(100,150,250,0.8);
 }
 
 #panelLeft:ltr {
@@ -481,7 +484,7 @@ background-color: none;
 .panel-button:hover {
 	background-color: rgba(10,21,22,0.93);
         border-radius: 0px;
-	color:  #56b74d;
+	color:  rgba(100,250,150,0.8);
 	box-shadow: 0px -1px 0px 0px rgba(100,250,150,0.5);
 	transition-duration: 100;
 }
@@ -530,7 +533,7 @@ background-color: none;
 .window-caption#selected {
    	background-color: #000;
         border-radius: 0px;
-	color: #56b74d;
+	color: rgba(100,250,150,0.8);
 	box-shadow: inset 0px -2px 0px 0px rgba(100,250,150,0.5);
         spacing: 25px;
 }
@@ -540,11 +543,7 @@ background-color: none;
 }
 
 .workspace-thumbnails-background {
-        border: 1px #56b74d;
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom: 0px;
-	border-radius:  0px;
+        border: 1px rgba(100,250,150,0.8);
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 8px;
 }
@@ -605,7 +604,7 @@ background-color: none;
 .window-close-area {
   background-image: url("trash-icon.png");
 	background-color: rgba(0, 0, 0, 0.8);
- 	border: 2px solid #56b74d;
+ 	border: 2px solid rgba(100,250,150);
     	border-bottom: 0px;
 	border-radius: 0px;
 	height: 120px;
@@ -642,12 +641,12 @@ background-color: none;
 }
 
 .expo-workspace-thumbnail-frame {
-  border: 1px, rgba(86,183,77,0.9);
+  border: 1px, rgba(100,250,150,0.8);
   background-color: rgba(64,64,64,0.9);
 }
 
 .expo-workspace-thumbnail-frame#active {
-  border: 2px, rgba(86,183,77,0.9);
+  border: 2px, rgba(100,250,150);
   background-color: rgba(32,32,32,0.9);
 }
 
@@ -667,13 +666,13 @@ background-color: none;
 }
 
 .desklet-with-borders-and-header {
-border: 0px solid #56b74d;
+border: 0px solid rgba(100,250,150);
   	border-bottom: 0px;
       	border-left: 0px;
       	border-right: 0px;
         border-top: 0px;
 	background-color: rgba(10,10,10,0,0);
-color: #56b74d;   
+	color: rgba(100,250,150,0.8);   
     border-radius-bottomleft: 0px;
     border-radius-bottomright: 0px;
 }
@@ -690,7 +689,7 @@ border: 1px solid #000;
         border-top: 0px;
 	background-color: rgba(10,10,10,0,0);
 	border-radius: 0px;
-color: #56b74d;  
+color: rgba(100,250,150);  
     padding: 6px;
 }
 
@@ -704,7 +703,7 @@ color: #56b74d;
 
 .photoframe-box {
 padding: 6px;
-border: 1px solid #56b74d;
+border: 1px solid rgba(100,250,150);
   	border-bottom: 3px;
       	border-left: 0px;
       	border-right: 0px;
@@ -716,7 +715,7 @@ border: 1px solid #56b74d;
 .xkcd-box {
 padding: 0px;
 border: none;
-background-color: none;
+background-color: rgba(10,21,22,0.93);
 border-radius: 0px;
 }
 
@@ -1118,8 +1117,8 @@ border-radius: 0px;
 .ripple-box {
     width: 150px;
     height: 150px;
-    background-gradient-end: rgba(86,183,77,0.8);
-    background-gradient-start: rgba(35,40,45,0.3);
+    background-gradient-end: rgba(100,250,150,0.8);
+    background-gradient-start: rgba(100,250,150,0.1);
     background-gradient-direction: radial;
  border-radius: 0px;
 }
@@ -1127,8 +1126,8 @@ border-radius: 0px;
 .ripple-box:rtl {
     width: 150px;
     height: 150px;
-    background-gradient-end: rgba(86,183,77,0.8);
-    background-gradient-start: rgba(35,40,45,0.3);
+    background-gradient-end: rgba(100,250,150,0.8);
+    background-gradient-start: rgba(100,250,150,0.1);
     background-gradient-direction: radial;
  border-radius: 0px;
 }
@@ -1617,8 +1616,8 @@ border-radius: 1px;
 .keyboard-key:checked,
 .keyboard-key:hover {
 	background-gradient-direction: vertical;
-	background-gradient-start: #56b74d;
-	background-gradient-end: #56b74d;
+	background-gradient-start: rbga(100,250,150,0.1);
+	background-gradient-end: rgba(100,250,150,0.8);
 border: 1px #76d2ec;
   border-bottom: 0px;
       border-left: 0px;
@@ -1630,8 +1629,8 @@ border-radius: 1px;
 
 .keyboard-key:active {
 	background-gradient-direction: vertical;
-	background-gradient-start: #56b74d;
-	background-gradient-end: #56b74d;
+	background-gradient-start: rgba(100,250,150,0.1);
+	background-gradient-end: rgba(100,250,150,0.8);
 border: 1px #76d2ec;
   border-bottom: 0px;
       border-left: 0px;
@@ -1647,7 +1646,7 @@ border-radius: 1px;
 	-arrow-border-radius: 2px;
 	-arrow-background-color: #1b1b1c;
 	-arrow-border-width: 1px;
-	-arrow-border-color: #56b74d;
+	-arrow-border-color: rgba(100,250,150);
 	-arrow-base: 10px;
 	-arrow-rise: 5px;
 	-boxpointer-gap: 5px;
@@ -2048,14 +2047,14 @@ border-radius: 1px;
  * ===================================================================*/
 /* Controls the styling when using the "Simple buttons" option */
 .workspace-switcher {
-    padding-left: 3px;
-    padding-right: 3px;
+    spacing: 0px;
+    padding: 0px;
 }
 
 .workspace-button {
    	width: 20px;
      	height: 10px;
-  	padding: 2px;
+  	padding: 0px;
 	border-radius: 0px;
     	background-color: rgba(255,255,255,0.0);
     	color: #ccc;
@@ -2064,10 +2063,11 @@ border-radius: 1px;
 
 .workspace-button:outlined {
   	padding: 2px;
-   	background-color: rgba(20,20,20,0.5);
+   	background-color: rgba(20,20,20,0);
         border-radius: 0px;
-	color: #56b74d;
-	box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1);
+	border: 0px rgba(100,250,150,1);
+	color: #64fe95;
+	/* box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1); */
 }
 
 .workspace-button.vertical {
@@ -2076,7 +2076,7 @@ border-radius: 1px;
     padding: 0;
     padding-top: 1px;
     padding-bottom: 3px;
-    box-shadow: inset 0px -2px 0px 0px rgba(86,183,77,1);
+    box-shadow: inset 0px -2px 0px 0px rgba(100,250,150,1);
 }
 
 /* Controls the style when using the "Visual representation" option */
@@ -2090,7 +2090,7 @@ border-radius: 1px;
     background-gradient-direction: vertical;
     background-gradient-start: #000;
     background-gradient-end: #000;
-    box-shadow: inset 0px -2px 0px 0px rgba(86,183,77,1);
+    box-shadow: inset 0px -2px 0px 0px rgba(100,250,150,1);
 }
 
 .workspace-graph .workspace:active {
@@ -2124,7 +2124,7 @@ border-radius: 1px;
     transition-duration: 200; }
     .panel-launchers .launcher:hover {
         background-color: rgba(10,10,10,0.1);
-    border: 0px solid rgba(86,183,77,1);
+    border: 0px solid rgba(100,250,150,1);
     border-bottom-width: 2px; }
   .panel-launchers.vertical {
     padding-top: 2px;
@@ -2187,16 +2187,16 @@ border-radius: 1px;
 }
 .applet-label:hover,
 .applet-box:hover > .applet-label {
-	box-shadow: inset 0px -2px 0px 0px rgba(86,183,77,1);    	
+	box-shadow: inset 0px -2px 0px 0px rgba(100,250,150,1);    	
 }
 .applet-icon {
-	color: #56b74d;
-	box-shadow: inset 0px -2px 0px 0px rgba(86,183,77,1);
+	color: rgba(100,250,150);
+	box-shadow: inset 0px -2px 0px 0px rgba(100,250,150,1);
 	icon-size: 2em;
 }
 .applet-icon:hover,
 .applet-box:hover > .applet-icon {
-	color: #56b74d;
+	color: rgba(100,250,150);
 }
 
 /* ===================================================================
@@ -2234,8 +2234,8 @@ border-radius: 1px;
 
 .expo-workspaces-name-entry#selected {
 	background-color: rgba(10,10,10,.0);
-	color: #56b74d;
-	border: 1px solid #56b74d;
+	color: rgba(100,250,150);
+	border: 1px solid rgba(100,250,150);
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
@@ -2387,8 +2387,8 @@ The colour parameters are red, green, blue, and transparency or a name */
 
 .numa-connected {
 	background-gradient-direction: vertical;
-	background-gradient-end: rgba(86,183,77,0.0);
-	background-gradient-start: rgba(86,183,77,0.0);
+	background-gradient-end: rgba(100,250,150,0.8);
+	background-gradient-start: rgba(100,250,150,0.1);
         color: #00ff7f;
         font-weight: bold;
  	border-radius: 0px;
@@ -2397,16 +2397,16 @@ The colour parameters are red, green, blue, and transparency or a name */
 .numa-alert {
         color: #FFFF00;
         background-gradient-direction: vertical;
-	background-gradient-end: rgba(86,183,77,0.0);
-	background-gradient-start: rgba(86,183,77,0.0);
+	background-gradient-end: rgba(100,250,150,0.8);
+	background-gradient-start: rgba(100,250,150,0.1);
         border-radius: 0px;
 }
 
 .numa-limit-exceeded {
         color: #e52d27;
         background-gradient-direction: vertical;
-	background-gradient-end: rgba(86,183,77,0.0);
-	background-gradient-start: rgba(86,183,77,0.0);
+	background-gradient-end: rgba(100,250,150,0.0);
+	background-gradient-start: rgba(100,250,150,0.0);
        	border-radius: 0px;
 }
 
@@ -2422,7 +2422,7 @@ The colour parameters are red, green, blue, and transparency or a name */
 
 .tile-preview.snap,
 .tile-hud.snap {
-    background-color: rgba(134, 170, 134, 0.5);
+    background-color: rgba(100,250,150,0.8);
     border: 1px solid rgba(85, 85, 85, 0.8);
 }
 
