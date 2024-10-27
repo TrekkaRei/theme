@@ -138,9 +138,12 @@ StScrollBar StButton#vhandle:hover
 .menu {
     /*border: 1px solid rgba(120, 120, 120, 1);*/
     /*  box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.15); */
+    background-gradient-direction: vertical;
+    background-gradient-end: rgba(10,21,22,0.9);
+    background-gradient-start: rgba(22,5,13,0.9);
     border: 0px rgba(100,250,150,0.5);
     border-radius: 1px;
-    background-color: rgba(10,21,22,0.93);
+    /* background-color: rgba(10,21,22,0.93); */
     color: #ccc;
     font-size: 8.5pt;
     margin-left: 2px;
@@ -207,7 +210,10 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-combo-menu {
-    background-color: rgba(10,21,22,0.93);
+    background-gradient-direction: vertical;
+    background-gradient-end: rgba(10,21,22,0.9);
+    background-gradient-start: rgba(22,5,13,0.9);
+    /* background-color: rgba(10,21,22,0.93); */
     padding: 1em 0em;
     color: rgb(100,100,100);
     font-size: 10pt;
@@ -314,7 +320,10 @@ background-color: none;
  * ===================================================================*/
 #panel {
     color: #cccccc;
-    background-color: rgba(10,21,22,0.93);
+    background-gradient-direction: vertical;
+    background-gradient-end: rgba(10,21,22,0.9);
+    background-gradient-start: rgba(22,5,13,0.9);
+    /* background-color: rgba(10,21,22,0.93); */
     border: 0px rgba(10,21,22,0.1);
     border-radius: 1px;
     /* box-shadow: 0px 0px 4px 4px rgba(100,250,150,0.13); */
@@ -753,7 +762,7 @@ border-radius: 0px;
 	spacing-rows: 0px;
 	spacing-columns: 0px;
         margin-right: 10px;
-        background: rgba(10,21,22,0.93);
+        background: rgba(10,21,22,0);
 }
 .calendar-events-main-box {
     height: 300px;
@@ -936,15 +945,18 @@ border-radius: 0px;
 #notification {
     font-size: 8.5pt;
     border-radius: 1px;
-    border: 1px solid rgba(100,250,150,0.8);
-   background-color: rgba(10,21,22,0.93);
-   box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1);
+    border: 1px solid #aaa;
+   /* background-color: rgba(10,21,22,0.93); */
+    background-gradient-direction: vertical;
+    background-gradient-end: rgba(10,21,22,0.9);
+    background-gradient-start: rgba(22,5,13,0.9);
+    /* box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1); */
     padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
     spacing-columns: 10px;
     margin-from-right-edge-of-screen: 20px;
     width: 34em;
-    color: white;
+    color: #64fe95;
     /* The px are a temporary fix until get_theme_node() can return raw numbers. */
     opacity:255px;
     mouseover-opacity:96px
@@ -952,7 +964,7 @@ border-radius: 0px;
 
 #notification.multi-line-notification {
     padding-bottom: 8px;
-    color: white;
+    color: #ccc;
 }
 
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
@@ -1153,10 +1165,10 @@ border-radius: 0px;
 .modal-dialog {
     font-size: 10pt;
     border-radius: 2px;
-    border: 2px;
+    border: 1px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(10,21,22,0.93);
-    background-gradient-end: rgba(10,21,22,0.93);
+    background-gradient-end: rgba(10,21,22,0.9);
+    background-gradient-start: rgba(22,5,13,0.9);
     box-shadow: 0px 0px 6px 6px rgba(100,250,150,0.1);
     color: #babdb6;
 
@@ -1731,7 +1743,7 @@ border-radius: 1px;
     padding-bottom: 4px;
     color: rgba(250,250,250,1);
     font-weight: normal;
-    background-color: rgba(10,21,22,0.93);
+    background-color: rgba(10,21,22,0.5);
     box-shadow: inset 0px 0px 1px 1px rgba(100,250,150,1);
     border-radius: 1px; 
   /*   border: 1px rgba(100,250,150,0.5); */
